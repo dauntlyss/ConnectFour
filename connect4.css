@@ -17,6 +17,16 @@
   width: 80%;
   height: 80%;
   border-radius: 50%;
+  animation-name: dropDown;
+  animation-duration: 1.5s;
+}
+@keyframes dropDown {
+  from {
+    transform: translateY(-400px);
+  }
+  to {
+    transform: translateY(0px);
+  }
 }
 
 .piece.p1 {
